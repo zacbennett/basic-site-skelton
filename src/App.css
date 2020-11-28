@@ -8,7 +8,9 @@
   background-color: yellow;
   border: solid 2px black;
   grid-area: navigation;
-  height: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
 }
 .main {
   background-color: green;
@@ -25,7 +27,7 @@
 #app {
   display: grid;
   grid-template-areas: 
-  "header header header header"
-  "navigation main main main"
+  "navigation navigation navigation navigation"
+  "main main main main"
   "footer footer footer footer";
 }
